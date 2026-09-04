@@ -2,7 +2,7 @@
 // ==UserScript==
 // @name         AuditBook Auto-Format Timing Paste updated aug-20
 // @namespace    http://tampermonkey.net/
-// @version      9.19
+// @version      7.0
 // @description  Format and paste timing data for AuditBook with concatenated time range support
 // @author       mfaiyazj
 // @match        https://auditbook-na.corp.amazon.com/audit
