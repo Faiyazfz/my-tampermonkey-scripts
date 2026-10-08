@@ -1300,7 +1300,7 @@
                 var ftsPeriod = ftsEndRaw.match(/(am|pm)/i)[1];
                 var ftsStartHr = parseInt(ftsStartRaw.match(/(\d{1,2})/)[1]);
                 var ftsEndHr = parseInt(ftsEndRaw.match(/(\d{1,2})/)[1]);
-                if (ftsStartHr > ftsEndHr && ftsPeriod.toLowerCase() === 'pm') {
+                if (ftsStartHr > ftsEndHr && ftsPeriod.toLowerCase() === 'pm'&& ftsStartHr !== 12) {
                     ftsStartRaw += ' am';
                 } else {
                     ftsStartRaw += ' ' + ftsPeriod;
