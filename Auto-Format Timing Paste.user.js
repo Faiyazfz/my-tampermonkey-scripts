@@ -19,7 +19,7 @@
  *  When clicked, it:
  *    1. Reads text from the clipboard
  *    2. Cleans and normalizes the timing text
- *    3. Parses it into per-day timings (MON–SUN)
+ *    3. Parses it into per-day timings (MON–SUN) 
  *    4. Fills the corresponding OUTPUT_MON … OUTPUT_SUN input fields
  *
  *  Also injects a standalone "Outdoor" button that sets all days
